@@ -1,5 +1,5 @@
-#ifndef IH_H
-#define IH_H
+#ifndef UI_H
+#define UI_H
 
 #include <stdbool.h>
 #include <time.h>
@@ -74,4 +74,4 @@ bool interface_send_notification(InterfaceHandler* handler,
                                 const char* subject,
                                 const char* message);
 
-#endif // IH_H
+#endif // UI_H
